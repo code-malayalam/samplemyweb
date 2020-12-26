@@ -56,3 +56,21 @@ body {
     top: 5px;
 }
 
+.sections {
+    display: flex;
+}
+
+.sections>div{
+    width: 34%;
+    height: 1000px;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.sections .js {
+    background: yellow;
+}
+
+
