@@ -71,8 +71,24 @@ body {
     padding: 10px;
     border: 1px solid lightgray;
     border-radius: 5px;
-    border-left: 5px solid #e3735d;
     margin: 15px;
+    border-left: 5px solid
+}
+
+.react .box {
+    border-left-color: blue;
+}
+
+.git .box {
+    border-left-color: #EDAB9F;
+}
+
+.others .box {
+    border-left-color: #9DC3E6;
+}
+
+.js .box {
+    border-left-color: #F48F58;
 }
 
 .box-title {
