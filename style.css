@@ -94,8 +94,23 @@ body {
     justify-content: center;
 }
 
-.loading.hide-loading {
+.hide-loading .loading{
     display: none;
+}
+
+.hide-loading .loading{
+    display: none;
+}
+
+.section-title {
+    display: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: grey;
+}
+
+.hide-loading .section-title {
+    display: block;
 }
 
 /* LIBRARY */

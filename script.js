@@ -38,11 +38,14 @@ const main = () => {
             const gitArr = [];
             const reactArr = [];
             const othersArr = [];
+            const filter = [];
 
             const items = data.items;
             items.forEach(item => {
                 if(item.id.videoId) {
-                    if(doMatch(item.snippet.title, 'JavaScript')) {
+                    if(doMatch(item.snippet.title, '1.0')) {
+                        filter.push(item);
+                    } else if(doMatch(item.snippet.title, 'JavaScript')) {
                         jsArr.push(item);
                     } else if (doMatch(item.snippet.title, 'Git')) {
                         gitArr.push(item);
@@ -58,7 +61,7 @@ const main = () => {
             console.log(gitArr);
             console.log(othersArr);
 
-            const content = document.getElementById('loading');
+            const content = document.body
             content.classList.add('hide-loading');
 
             fillDom(gitArr.reverse(), 'git');
