@@ -1,3 +1,8 @@
+/**
+ * 
+ * This is a script for codemalayalam.in
+ */
+
 
 
 const initiateApi = () => {
