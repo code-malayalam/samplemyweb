@@ -1,6 +1,7 @@
 /**
  * 
- * This is a script for codemalayalam.in
+ * This is a script for codemalayalam.in.
+ * This gets data from youtube
  */
 
 
