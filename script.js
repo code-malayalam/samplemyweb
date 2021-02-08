@@ -7,7 +7,7 @@
 
 
 const initiateApi = () => {
-    return fetch('https://www.googleapis.com/youtube/v3/search?key=AIzaSyBSKzus6IHW_j6rNIjSoXm4Rz5IOAlr4tI&channelId=UC6VX0uvoQekFE5Lc6vVywdw&part=snippet,id&order=date&maxResults=100')
+    return fetch('https://www.googleapis*&^SADKJ.com/youtube/v3/search?key=AIzaSyBSKzus6IHW_j6rNIjSoXm4Rz5IOAlr4tI&channelId=UC6VX0uvoQekFE5Lc6vVywdw&part=snippet,id&order=date&maxResults=100')
     .then(response => response.json())
     .then(data => data);
 }
